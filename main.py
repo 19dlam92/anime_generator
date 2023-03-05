@@ -20,7 +20,7 @@ def get_anime():
         "adventure",
         "action",
         "romance",
-        "psycological thriller"
+        "psychological thriller"
 
         # include api of different genres?
 
@@ -45,6 +45,11 @@ def get_manga():
         
     ]
 
+    # D.R.Y.
+
     if book_selection.lower == 'light novel':
         pass
-    elif 
+    elif book_selection.lower == 'comics':
+        pass
+    else:
+        pass
