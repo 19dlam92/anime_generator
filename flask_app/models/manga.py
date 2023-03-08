@@ -5,9 +5,10 @@
 class Manga:
     def __init__(self, data):
         self.id = data['id']
-        self.name = data['name']
-        self.genre = data['genre']
-        self.chapter = data['chapter']
+        self.title = data['title']
+        self.characters = data['characters']
+        self.genres = data['genres']
+        self.chapters = data['chapters']
         self.created_at = data['created_at']
         self.updated_at = data['updated_at']
 

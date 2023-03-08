@@ -5,11 +5,12 @@
 class Anime:
     def __init__(self, data):
         self.id = data['id']
-        self.name = data['name']
-        self.genre = data['genre']
-        self.episode = data['episode']
-        self.serie = data['serie']
-        self.movie = data['movie']
+        self.title = data['title']
+        self.characters = data['characters']
+        self.genres = data['genres']
+        self.episodes = data['episodes']
+        self.series = data['series']
+        self.movies = data['movies']
         self.created_at = data['created_at']
         self.updated_at = data['updated_at']
 
@@ -19,6 +20,7 @@ class Anime:
         query = '''
                 SELECT * FROM animes;
                 '''
+        results = 
 
 
     mood_selection = input("What're you in the mood for? (Series / Movies / Surprise Me!)")
@@ -48,3 +50,5 @@ class Anime:
                 SELECT * FROM animes
                 WHERE id = %(id)s;
                 '''
+        results = 
+
